@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    bottom: 20px;
+    left: 0;
+    right:0;
+    z-index: 99;
+    border-radius: 30px;
+    padding:1.2rem 3rem;
+    margin:auto;
+    width:300px;
+    
+}
+.navbar ul{
+    display:flex;
+    gap:20px;
+    font-weight: 600;
+
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
