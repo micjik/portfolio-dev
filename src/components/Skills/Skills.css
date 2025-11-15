@@ -1,0 +1,21 @@
+.skills{
+    display: grid;
+    place-items: center;
+}
+.skills h2{
+    font-size: 3rem;
+}
+.skills-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.skills-container .skill-img-top{
+    display: flex;
+    gap:30px;
+}
+.skill-img-top img, .skill-img-bottom img{
+    display: inline-block;
+    padding:3rem;
+}
+
