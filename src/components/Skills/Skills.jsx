@@ -12,7 +12,7 @@ import './Skills.css'
 const Skills = () => {
   return (
     <div>
-      <div className="skills">
+      <div className="skills" id="skills">
         <h2>Skills and Tools</h2>
         <div className="skills-container">
            <div className="skill-img-top">

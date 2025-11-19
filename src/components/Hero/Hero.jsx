@@ -1,16 +1,16 @@
 import React from 'react'
 import { Typewriter } from 'react-simple-typewriter';
-import heroImg from "../../assets/passport.jpg"
+import heroImg from "../../assets/program.jpg"
 import './Hero.css'
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero" id="hero">
         <div className="hero-content">
             <div className="hero-left">
               <h2>I'm Michael Adetayo</h2>
               <h3><Typewriter
-            words={[ 'Frontend Engineer', 'Frontend Developer']}
+            words={[ 'Frontend Engineer', 'Web Developer']}
             loop={5}
             cursor
             cursorStyle='_'
